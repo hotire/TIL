@@ -15,6 +15,18 @@ Grooby 기반의 빌드 도구이다.
 
 
 
+### Build Life Cycle
+
+- 초기화 : 빌드 대상 프로젝트를 결정하고 각각에 대한 Project 객체를 생성. settings.gradle 파일에 프로젝트 구성
+
+- 구성 : 빌드 대상이 되는 모든 프로젝트의 빌드 스크립트를 실행
+
+- 실행 : 구성 단계에서 생성하고 생성된 프로젝트의 테스트 중에 실행 대상 결정. gradle 명령행에서 지정한 테스크  이름 인자와 현재 디렉토리를 기반으로 테스크를 결정하여 선택된 Task들을 실행
+
+  
+
+  https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.6:dep:build_tool:gradle
+
 
 
 
