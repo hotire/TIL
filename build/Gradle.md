@@ -29,5 +29,59 @@ Grooby 기반의 빌드 도구이다.
 
 
 
+### 테스트 실행하기
 
+build.gradle 다음과 같이 수정해보자. 
+
+
+
+```groovy
+task hello {
+    doLast {
+        println();
+        println("******************");
+        println("Welcom to Gradle");
+        println("******************");
+        println();
+    }
+}
+```
+
+
+
+수정 후 명령행에서 다음과 같이 실행한다. 
+
+```
+gradle hello
+```
+
+```
+> Task :hello
+
+******************
+Welcom to Gradle
+******************
+
+
+BUILD SUCCESSFUL in 869ms
+1 actionable task: 1 executed
+```
+
+
+
+- quiet 모드로 실행하기 
+
+  오직 task 안의 내용만을 실행하고 싶을 경우 
+
+  ```
+  gradle -q hello
+  ```
+
+  ```
+  ******************
+  Welcom to Gradle
+  ******************
+  ```
+
+  
 
