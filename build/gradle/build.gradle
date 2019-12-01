@@ -1,0 +1,9 @@
+task hello {
+    doLast {
+        println();
+        println("******************");
+        println("Welcom to Gradle");
+        println("******************");
+        println();
+    }
+}
