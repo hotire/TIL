@@ -129,6 +129,15 @@ brew cask install sourcetree
 keymap -> Find in Path 설정
 ```
 
+- plugins 
+  - Lombok 
+  - CheckStyle-IDEA
+  - Key Promoter X
+  - SonarLint
+  - .ignore 
+  - String Manipulation
+
+
 ### Docker
 
 ```
