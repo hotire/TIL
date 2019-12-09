@@ -113,5 +113,20 @@ gradle parameter -q -Pnum=100
 total :5050
 ```
 
+### 동적 태스크 생성 
 
+```
+task "$ 변수" {...처리...} 
+```
+
+다음과 같이 스크립트를 사용해서 동적으로 태스크를 생성할 수 있다. 
+
+
+```
+gradle -q one
+```
+
+```
+this is one task.
+```
 

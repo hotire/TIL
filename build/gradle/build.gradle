@@ -17,3 +17,15 @@ task parameter {
 		println("total :" + total);
 	}
 }
+
+ 
+def arr = ["one", "two"]
+arr.each { s -> 
+	task "$s" {
+		doLast {
+			println("this is $s task.");
+		}
+	}
+}
+ 
+
