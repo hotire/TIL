@@ -103,6 +103,8 @@ hello 예제에서 doLast가 포함되어있다. doLast는 테스크의 액션 �
 
 매개변수에서 전달되는 값을 프로퍼피토 사용할 수 있다. 단 'String'이다. 
 
+'-P프로퍼티=값'형태로 특정 변수에 값을 전달할 수 있다.  
+
 ```
 gradle parameter -q -Pnum=100
 ```
@@ -110,5 +112,6 @@ gradle parameter -q -Pnum=100
 ```
 total :5050
 ```
+
 
 
