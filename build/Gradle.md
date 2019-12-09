@@ -98,3 +98,17 @@ hello 예제에서 doLast가 포함되어있다. doLast는 테스크의 액션 �
 - doFirst : 처음에 실행되는 액션
 - doLast : 마지막에 실행되는 액션
 
+
+### 매개변수 이용
+
+매개변수에서 전달되는 값을 프로퍼피토 사용할 수 있다. 단 'String'이다. 
+
+```
+gradle parameter -q -Pnum=100
+```
+
+```
+total :5050
+```
+
+

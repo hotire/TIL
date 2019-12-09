@@ -7,3 +7,13 @@ task hello {
         println();
     }
 }
+
+task parameter {
+	doLast {
+		def total = 0;
+		for (def i in 1..num.toInteger()) {
+			total += i;
+		}
+		println("total :" + total);
+	}
+}
