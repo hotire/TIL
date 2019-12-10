@@ -121,6 +121,17 @@ brew cask install sourcetree
 
 ### Java
 
+```
+brew tap AdoptOpenJDK/openjdk
+brew cask install <version>
+```
+- OpenJDK8 with Hotspot JVM version : adoptopenjdk8
+- OpenJDK11 with Hotspot JVM version : adoptopenjdk11
+
+
+https://github.com/AdoptOpenJDK/homebrew-openjdk
+
+
 ### Intellij
 
 <https://github.com/google/styleguide>
