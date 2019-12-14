@@ -130,3 +130,16 @@ gradle -q one
 this is one task.
 ```
 
+### gradle java와 gradle build
+
+gradle java는 자바 프로그램의 빌드를 수행하지만, gradle build는 어떤 언어라도 프로젝트를 빌드한다.
+
+그레들은 자바 이외에도 그루비나 스칼라 등 많은 언어를 지원하고 각각의 언어에서 빌드를 수행하는 플러그인을 제공한다.
+
+
+
+
+
+
+
+

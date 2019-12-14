@@ -29,3 +29,6 @@ arr.each { s ->
 }
  
 
+apply plugin: 'java'
+
+
