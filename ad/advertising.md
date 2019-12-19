@@ -55,3 +55,7 @@ AD Network를 중개하는 플랫폼으로 인벤토리 수요와 공급 불일�
 Data Management Platform 매체와 오디언스 데이터를 분석하여 타겟팅을 한다. 
 
 
+### DSP
+
+Demand Side Platform
+
