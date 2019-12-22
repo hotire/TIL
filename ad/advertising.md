@@ -1,5 +1,7 @@
 # Advertising
 
+![ad](../doc/img/ad.png)
+
 ## 용어 
 
 ### CPM
