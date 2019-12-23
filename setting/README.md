@@ -155,6 +155,13 @@ keymap -> Find in Path 설정
 brew cask install docker
 ```
 
+### Kubernetes
+
+```
+brew cask intsall kubernetes-cli
+```
+
+
 ### nodejs
 
 ```
