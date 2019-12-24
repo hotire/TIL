@@ -96,6 +96,11 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\](\[$(b
     br = branch
     alias = "!git config --list | egrep '^alias.+'"
 ```
+아이디, 비밀번호 캐싱 (ex 10일)
+
+```
+git config --global credential.helper 'cache --timeout=864000'
+```
 
 
 
