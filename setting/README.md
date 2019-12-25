@@ -48,6 +48,11 @@ git config --global core.quotepath false
 Open ~/.bash_profile
 
 ```
+c_cyan=`tput setaf 6` 
+c_red=`tput setaf 1` 
+c_green=`tput setaf 2` 
+c_sgr0=`tput sgr0`
+
 parse_git_branch ()
 {
    if git rev-parse --git-dir >/dev/null 2>&1
@@ -147,6 +152,9 @@ keymap -> Find in Path 설정
   - SonarLint
   - .ignore 
   - String Manipulation
+- QueryDSL 주의사항
+  - Enable Annotation processing 
+  - generated 소스 코드 추가 (Add Content Root)
 
 
 ### Docker
