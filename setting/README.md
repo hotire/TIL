@@ -171,7 +171,7 @@ brew cask install docker
 ### Kubernetes
 
 ```
-brew cask intsall kubernetes-cli
+brew cask install kubernetes-cli
 ```
 
 
