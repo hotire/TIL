@@ -42,5 +42,11 @@ commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터�
 
 
 
+### commit message 변경
+
+```shell
+$ git commit --amend
+```
+
 
 
