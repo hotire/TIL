@@ -19,7 +19,7 @@ git reset HEAD [file] 을 통해 파일을 선택해 add를 취소할 수 있�
 
 
 
-### commit 취소하기
+### commit 취소
 
 ```shell
 $ git reset --hard HEAD^
@@ -49,4 +49,26 @@ $ git commit --amend
 ```
 
 
+
+### push 취소
+
+1. commit 되돌린다. 
+
+   ```shell
+   $ git reset HEAD^
+   ```
+
+2. 되돌려진 상태에서 다시 commit 한다.
+
+   ```shell
+   $ git commit -m ""
+   ```
+
+3. 강제로 푸시한다. 
+
+   -  -f 옵션
+     –force 옵션과 동일하다.
+   -  +[branch name]
+     해당 branch를 강제로 push한다.
+     
 
