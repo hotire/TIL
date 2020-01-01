@@ -72,3 +72,15 @@ $ git commit --amend
      해당 branch를 강제로 push한다.
      
 
+## Git Commit Message 규칙
+
+#### 부정문 `Don't`을 사용한다. 
+
+Not use가 아닌 Don't use 이다.
+
+#### 오타 수정은  Correct misspelled text가 아니다.
+
+Fix typo이다. 
+
+
+
