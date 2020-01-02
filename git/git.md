@@ -84,3 +84,17 @@ Fix typo이다.
 
 
 
+## 기타
+
+### refusing to merge unrelated histories
+
+git에서는 서로 관련 기록이 없는 이질적인 두 프로젝트를 병합할 때 기본적으로 거부한다. 
+
+```shell
+git pull origin `branch` --allow-unrelated-histories
+```
+
+
+
+
+
