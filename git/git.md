@@ -83,6 +83,36 @@ Not use가 아닌 Don't use 이다.
 Fix typo이다. 
 
 
+### 과거의 push 취소 
+```
+git log
+```
+commit 확인한다. 
+
+바꾸려는 이전의 커밋으로 되돌린다. 
+
+```
+git rebase --interactive 
+```
+
+수정할 커밋에 pick -> edit으로 수정하고 저장한다.
+
+```
+commit --amend
+```
+내용을 수정하고 저장한다. 
+
+```
+git rebase --continue
+```
+
+```
+git push --force
+```
+강제 푸시한다. 조금 더 안정한 방법으로 누군가 push를 하지 않은 상태에서 
+git push --force를 실행하는 git push --force-with-lease를 사용할 수도 있다. 
+
+
 
 ## 기타
 
