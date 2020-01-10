@@ -8,6 +8,42 @@ $ git rebase master
 ```
 
 
+### 여러개의 커밋로그를 하나로 묶기
+
+```
+git log --pretty=oneline
+```
+각 커밋을 한 라인으로 보여준다
+
+커밋을 확인한 후 
+
+```
+git rebase -i HEAD~3
+```
+interactive rebase로 3개를 수정한다. 
+
+```
+pick 7c65355 Commit1
+pick 2639543 Commit2
+pick d442427 Commit3
+```
+
+```
+pick 7c65355 Commit1
+squash 2639543 Commit2
+squash d442427 Commit3
+```
+squash로 변경하고 저장(wq)하면 
+
+다른 vi창이 뜨면서 커밋 메시지를 rewrite할 수 있다. 
+
+```
+pick 7c65355 Commit
+```
+
+
+
+
 
 ## 명령어
 
