@@ -1,0 +1,9 @@
+#! /bin/bash
+if ! [ -d bak ]; then
+	mkdir bak
+fi
+echo 'copy log'
+cp *.log bak 
+
+ 
+

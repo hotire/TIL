@@ -6,3 +6,6 @@
 
 
 - 쉘스크립트 문법을 체크해주는 사이트 : https://www.shellcheck.net/
+
+
+
