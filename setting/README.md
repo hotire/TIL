@@ -181,3 +181,9 @@ brew cask install kubernetes-cli
  brew cask install node
 ```
 
+### Redis
+
+```
+brew install redis
+```
+
