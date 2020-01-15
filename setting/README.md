@@ -183,7 +183,14 @@ brew cask install kubernetes-cli
 
 ### Redis
 
-```
+```shell
 brew install redis
 ```
 
+redis 설치
+
+```
+redis-cli shutdown
+```
+
+redis 셧다운
