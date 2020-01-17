@@ -84,4 +84,4 @@ Demand Side Platform 광고주의 입장에서 효율적인 인벤토리 구매�
 
 ### SMB
 
-Small & Medium Businesses, 중소형기업 광고주를 부를 때 흔히쓰는 용어 
+Small & Medium Businesses, 중소형기업 광고주를 부를 때 흔히쓰는 용어.
