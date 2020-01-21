@@ -32,6 +32,15 @@ brew install ZSH
 ### Informative git prompt for zsh
 https://github.com/olivierverdier/zsh-git-prompt
 
+다운받아서, ~/.zshrc에 
+
+```
+source path/to/zshrc.sh // zshrc.sh 가 있는 경로 
+# an example prompt
+PROMPT='%B%m%~%b$(git_super_status) %# '
+```
+입력한다. 
+
 ### Typora
 
 
