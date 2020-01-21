@@ -11,7 +11,6 @@
 ```
 
 
-
 ### Iterm2
 
 ```
@@ -29,6 +28,9 @@ brew install tree
 ```
 brew install ZSH
 ```
+
+### Informative git prompt for zsh
+https://github.com/olivierverdier/zsh-git-prompt
 
 ### Typora
 
