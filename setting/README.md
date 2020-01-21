@@ -24,12 +24,13 @@ brew cask install iterm2
 brew install tree
 ```
 
+### ZSH
 
-
-
+```
+brew install ZSH
+```
 
 ### Typora
-
 
 
 ### Git
@@ -43,50 +44,10 @@ git config --global core.precomposeunicode true
 git config --global core.quotepath false
 ```
 
-터미널 설정 
-
-Open ~/.bash_profile
-
-```
-c_cyan=`tput setaf 6` 
-c_red=`tput setaf 1` 
-c_green=`tput setaf 2` 
-c_sgr0=`tput sgr0`
-
-parse_git_branch ()
-{
-   if git rev-parse --git-dir >/dev/null 2>&1
-   then
-      gitver=$(git branch 2>/dev/null| sed -n '/^\*/s/^\* //p')
-   else
-      return 0
-   fi
-   echo -e $gitver
-}
-
-branch_color ()
-{
-   if git rev-parse --git-dir >/dev/null 2>&1
-   then
-      color=""
-      if git diff --quiet 2>/dev/null >&2
-      then
-         color="${c_green}"
-      else
-         color=${c_red}
-      fi
-   else
-      return 0
-   fi
-   echo -ne $color
-}
-
-export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\](\[$(branch_color)\]$(parse_git_branch)\[${c_sgr0}\])\$ '
-```
-
 별칭 설정 
+~/.gitconfig 
 
-```g
+```
 [alias]
     co = checkout
     rb = rebase -i
