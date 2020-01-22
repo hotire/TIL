@@ -118,6 +118,8 @@ https://github.com/AdoptOpenJDK/homebrew-openjdk
 
 <https://github.com/google/styleguide>
 
++ Chained method calls - Align when multiline check!
+
 ```
 keymap -> Find in Path 설정
 ```
