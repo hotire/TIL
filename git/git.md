@@ -171,6 +171,8 @@ Git은 데이터를 저장하기 전에 항상 해시값을 구하고, 해시값
 
 ### Objects
 
+- 내용을 주소로 활용 (Content-addressable Key-Value Storage)
+
 40글자의 해시 값 중 앞 두글자를 따서 디렉토리를 생성하고 나머지 38자로 파일을 생성한다.
 
 
