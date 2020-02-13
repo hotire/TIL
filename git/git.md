@@ -1,3 +1,5 @@
+
+
 # Git
 
 ## Rebase
@@ -147,6 +149,21 @@ git push --force
 ```
 강제 푸시한다. 조금 더 안정한 방법으로 누군가 push를 하지 않은 상태에서 
 git push --force를 실행하는 git push --force-with-lease를 사용할 수도 있다. 
+
+
+### Cherry-Pick
+
+원하는 커밋만 브런치에 반영하는 방법이다. 
+
+~~~git
+ git cherry-pick commit-id
+~~~
+
+- 취소
+
+~~~git
+ git cherry-pick --abort
+~~~
 
 
 
