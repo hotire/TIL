@@ -17,3 +17,13 @@
 - driver 변경 (com.mysql.jdbc.driver -> com.mysql.cj.jdbc.driver)
 - xml기반에서 사용하던 '&amp;' 사용할 수 없다. 
 - utf8mb4는 utf8으로 자동 매핑된다. 
+
+
+### JUnit5 
+JUnit5 드디어 의존성으로 들어왔다.
+
+### Batch
+
+ItemWriter가 필수 조건으로 바뀌었다.
+
+- NoOpItemWriter() 와 같은 아무것도 하지 않는 Writer를 넣어줘야 한다.
