@@ -17,7 +17,7 @@
 - driver 변경 (com.mysql.jdbc.driver -> com.mysql.cj.jdbc.driver)
 - xml기반에서 사용하던 '&amp;' 사용할 수 없다. 
 - utf8mb4는 utf8으로 자동 매핑된다. 
-
+- timeZone 명시 문제로 client / server 간의 timeZone을 맞추지 않고 있다면 굉장히 어려움
 
 ### JUnit5 
 JUnit5 드디어 의존성으로 들어왔다.
