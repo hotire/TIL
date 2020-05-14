@@ -101,6 +101,15 @@ Small & Medium Businesses, 중소형기업 광고주를 부를 때 흔히쓰는 
 
 Auto Bidding은 광고 단가를 낮춰준다.
 
+### Bid Strategy
+
+- Cost cap
+
+- Bid Cap
+
+- Target cost
+
+
 
 
 
