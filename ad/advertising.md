@@ -85,3 +85,30 @@ Demand Side Platform 광고주의 입장에서 효율적인 인벤토리 구매�
 ### SMB
 
 Small & Medium Businesses, 중소형기업 광고주를 부를 때 흔히쓰는 용어.
+
+
+
+## Auto Bidding
+
+
+### What Is Auto Bidding
+
+한마디로 Fiding a bid ammount 
+
+광고주는 ROI / ROAS 가 높길 바란다. 
+
+적은 비용, 광고 단가를 낮출 수록 광고주의 수익은 올라간다. 
+
+Auto Bidding은 광고 단가를 낮춰준다.
+
+
+
+
+
+
+
+
+
+
+
+
