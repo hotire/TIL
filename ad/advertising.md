@@ -91,7 +91,7 @@ Small & Medium Businesses, 중소형기업 광고주를 부를 때 흔히쓰는 
 ## Auto Bidding
 
 
-### What Is Auto Bidding
+### What is Auto Bidding
 
 한마디로 Fiding a bid ammount 
 
