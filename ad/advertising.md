@@ -113,6 +113,7 @@ Auto Bidding은 광고 단가를 낮춰준다.
 
 - Target cost
 
+-10 ~ +10 비용을 사용한다.
 
 ### Pacing Tpye 
 
