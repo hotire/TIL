@@ -92,6 +92,12 @@ WHERE EXISTS
 
 좀 더 쉽게 말씀드리면 SELECT, WHERE, ORDER BY, GROUP BY 등에 사용되는 모든 컬럼이 인덱스의 구성요소인 경우를 얘기합니다.
 
+### 인덱스 컨디션 푸시다운 인덱스
+
+https://jojoldu.tistory.com/474
+
+### 인덱스 풀 스캔 (range 스캔이 아님)
+
 
 ### Reference
 
