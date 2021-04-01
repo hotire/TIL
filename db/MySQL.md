@@ -99,6 +99,26 @@ https://jojoldu.tistory.com/474
 ### 인덱스 풀 스캔 (range 스캔이 아님)
 
 
+### Non Clustered Key와 Clustered Key
+
+
+- Clustered Key : PK키 (PK가 없을 때 유니크키, 둘다 없을 경우 6byte의 Hidden Key, rowid를 생성함) 테이블당 1개만 존재
+
+
+- Non Clustered Key : 일반적인 인덱스, 여러개 생성 가능
+
+1. Non Clustered Key (일반적인 인덱스) 에는 인덱스 컬럼의 값들과 Clustered Key (PK) 의 값이 포함되어 있음
+2. Clustered Key 만이 실제 테이블의 row 위치를 알고 있음
+
+
+MySQL에서는 Non Clustered Key에 Non Clustered Key에는 데이터 블록의 위치가 없기 때문에 Clustered Key가 항상 포함된다. 
+
+즉, 인덱스 조건에 부합한 where 조건이 있더라도 select에 인덱스에 포함된 컬럼 외에 다른 컬럼값이 필요할때는 Non Clustered Key에 있는 Clustered Key 값으로 데이터 블록을 찾는 과정이 필요합니다.
+
+커버링 인덱스는 여기서 "2. 실제 데이터 접근" 의 행위 없이 인덱스에 있는 컬럼값들로만 쿼리를 완성하는 것을 이야기 합니다.
+
+
 ### Reference
 
 - https://jojoldu.tistory.com/243
+- https://jojoldu.tistory.com/476#recentEntries
