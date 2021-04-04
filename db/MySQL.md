@@ -106,6 +106,14 @@ SIMPLE(단순 SELECT) / ref(동등 조건으로 검색할 경우) / key(idx_temp
 Extra 항목에는 빈값으로 where 절에는 인덱스가 사용되었지만, select 필드를 완성하기 위해 데이터 블록에 접근한다.
 
 
+~~~sql
+select customer_id
+from temp_ad_offset
+where customer_id = 7;
+~~~
+
+앞 결과와 다르게 Using index, 커버링 인덱스로 동작한다.
+
 
 ### 인덱스 컨디션 푸시다운 인덱스
 
