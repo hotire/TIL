@@ -141,6 +141,40 @@ where customer_id = 7;
 	- ex: (index: a,b,c), group by a,b,c,d 는 인덱스 적용안됨
 
 
+### Where
+
+1. WHERE가 동등 비교가 아닌 경우
+
+먼저 동등 비교의 실행 계획을 확인해봅니다.
+
+(인덱스 - offset_type, customer_id, base_date)
+
+~~~sql
+select *
+from temp_ad_offset
+where offset_type = 'GIVE_OFFSET'
+group by customer_id, base_date
+limit 2000000, 100;
+~~~
+
+Using index condition; Using where
+
+vs
+
+~~~sql
+select *
+from temp_ad_offset
+where offset_type like 'GIVE%'
+group by customer_id, base_date
+limit 2000000, 100;
+~~~
+
+Using index condition; Using temporary; Using filesort
+
+- 인덱스 Key대로 GROUP BY가 되었다면, 인덱스 Key대로 그룹핑만 진행하면 되기 때문에 별도의 임시 테이블 (temporary)를 만들어 그 안에서 정렬 (filesort)를 할 필요가 없습니다.
+- 즉, GROUP BY가 인덱스 순서대로 잘 탔다면, 이 2개 항목이 등장하지 않는다는 점을 명심해주세요.
+- 그렇기에 2개가 추가되었으니 인덱스가 타지 못함
+
 
 ### 인덱스 컨디션 푸시다운 인덱스
 
@@ -172,3 +206,4 @@ MySQL에서는 Non Clustered Key에 Non Clustered Key에는 데이터 블록의 
 
 - https://jojoldu.tistory.com/243
 - https://jojoldu.tistory.com/476#recentEntries
+- https://jojoldu.tistory.com/481?category=761883
