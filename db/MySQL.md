@@ -112,7 +112,23 @@ from temp_ad_offset
 where customer_id = 7;
 ~~~
 
+
 앞 결과와 다르게 Using index, 커버링 인덱스로 동작한다.
+
+
+
+2. WHERE + GROUP BY
+
+
+### Group By
+
+- GROUP BY 에서 인덱스는 아래 조건에서 적용됩니다.
+1. GROUP BY 절에 명시된 컬럼이 인덱스 컬럼의 순서와 같아야 한다. 
+	- 아래 모든 케이스는 인덱스가 적용 안된다. (index: a,b,c)
+	- group by b
+	- group by b, a
+	- group by a, c, b
+
 
 
 ### 인덱스 컨디션 푸시다운 인덱스
