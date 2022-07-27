@@ -160,7 +160,7 @@ brew install --cask kubernetes-cli
 ### nodejs
 
 ```
- brew install --cask node
+ brew install node
 ```
 
 ### Redis
