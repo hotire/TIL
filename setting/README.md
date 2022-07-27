@@ -48,6 +48,8 @@ PROMPT='%B%m%~%b$(git_super_status) %# '
 
 ### Typora
 
+- https://typora.kr.uptodown.com/mac/versions
+
 
 ### Git
 
