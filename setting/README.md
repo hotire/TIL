@@ -47,16 +47,15 @@ PROMPT='%B%m%~%b$(git_super_status) %# '
 ```
 입력한다. 
 
+~~~
+brew install python
+~~~
+
 python 설치 후 ~/.zshrc에 
 
 ~~~
 alias python=/usr/local/bin/python3.9 // python 
 ~~~
-
-### Typora
-
-- https://typora.kr.uptodown.com/mac/versions
-
 
 ### Git
 
@@ -93,7 +92,9 @@ git config --global core.quotepath false
 git config --global credential.helper 'cache --timeout=864000'
 ```
 
+### Typora
 
+- https://typora.kr.uptodown.com/mac/versions
 
 ### Sublime
 
