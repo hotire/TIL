@@ -10,6 +10,11 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+- m1 zsh: command not found: brew
+~~~
+eval $(/opt/homebrew/bin/brew shellenv)
+~~~
+
 
 ### Iterm2
 
