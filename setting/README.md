@@ -19,7 +19,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 ### Iterm2
 
 ```
-brew cask install iterm2
+brew install --cask iterm2
 ```
 
 ### Tree
@@ -91,19 +91,19 @@ git config --global credential.helper 'cache --timeout=864000'
 ### Sublime
 
 ```
-brew cask install sublime-text
+brew install --cask sublime-text
 ```
 
 ### Chrome
 
 ```
-brew cask install google-chrome
+brew install --cask google-chrome
 ```
 
 ### SourceTree
 
 ```
-brew cask install sourcetree
+brew install --cask sourcetree
 ```
 
 ### Sequel-pro
@@ -146,20 +146,20 @@ keymap -> Find in Path 설정
 ### Docker
 
 ```
-brew cask install docker
+brew install --cask docker
 ```
 
 ### Kubernetes
 
 ```
-brew cask install kubernetes-cli
+brew install --cask kubernetes-cli
 ```
 
 
 ### nodejs
 
 ```
- brew cask install node
+ brew install --cask node
 ```
 
 ### Redis
