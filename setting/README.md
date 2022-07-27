@@ -113,7 +113,7 @@ brew install --cask sourcetree
 
 ```
 brew tap AdoptOpenJDK/openjdk
-brew cask install <version>
+brew install --cask <version>
 ```
 - OpenJDK8 with Hotspot JVM version : adoptopenjdk8
 - OpenJDK11 with Hotspot JVM version : adoptopenjdk11
