@@ -47,6 +47,12 @@ PROMPT='%B%m%~%b$(git_super_status) %# '
 ```
 입력한다. 
 
+python 설치 후 ~/.zshrc에 
+
+~~~
+alias python=/usr/local/bin/python3.9 // python 
+~~~
+
 ### Typora
 
 - https://typora.kr.uptodown.com/mac/versions
