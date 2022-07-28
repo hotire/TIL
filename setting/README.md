@@ -95,6 +95,7 @@ git config --global credential.helper 'cache --timeout=864000'
 ### Typora
 
 - https://typora.kr.uptodown.com/mac/versions
+- https://typora.kr.uptodown.com/mac/download/3642551
 
 ### Sublime
 
