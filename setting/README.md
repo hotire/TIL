@@ -184,6 +184,9 @@ fi
 
 - 손상되었기 때문에 열 수 없습니다. 해당 항목을 휴지통으로 이동해야 합니다. 에러 인 경우 Xattr -cr '앱 경로' (xattr -cr /Applications/VisualVM.app)
 
+### ThreadLogic
+
+- https://github.com/sparameswaran/threadlogic/releases
 
 
 ### Intellij
