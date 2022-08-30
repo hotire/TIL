@@ -12,4 +12,9 @@ ps -ef | grep 명령어 조합으로 실행중인 자바 프로세스 찾는는 
 
 - jps -v : jvm 파라미터 표시
 
+2. jstack
+
+jstack PID -> threadump.txt
+
+
 
