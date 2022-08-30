@@ -163,7 +163,17 @@ fi
 
 }
 ~~~
+### Memory Analyzer
 
+- https://www.eclipse.org/mat/previousReleases.php
+
+1.12.0 version 다운
+
+동작하지 않을 경우 Contents/Info.plist 에서 <array></array> 사이에 
+
+<string>-vm</string><string>/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/bin/java</string>
+
+추가 
 
 ### Intellij
 
