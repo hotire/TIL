@@ -8,7 +8,7 @@ https://www.gocd.org/
 https://docs.gocd.org/current/installation/install/server/osx.html
 
 
-Download the Mac OS X installer for GoCD Server from downloads page.
+Download the Mac OS X installer for GoCD Server from [downloads page](https://www.gocd.org/download/#osx)
 
 Unzip the installer in a directory of your choice. It creates a sub-directory with the name go-server-${version}.
 
