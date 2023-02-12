@@ -131,6 +131,12 @@ brew install --cask <version>
 ~~~
 
 - java 17 부터는 https://adoptium.net/temurin/releases/
+- https://github.com/adoptium/installer
+
+~~~
+brew tap homebrew/cask-versions
+brew install --cask temurin17
+~~~
 
 
 https://github.com/AdoptOpenJDK/homebrew-openjdk
