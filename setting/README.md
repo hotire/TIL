@@ -127,6 +127,12 @@ brew install --cask <version>
 - OpenJDK11 with Hotspot JVM version : adoptopenjdk11
 
 
+~~~
+~~~
+
+- java 17 부터는 https://adoptium.net/temurin/releases/
+
+
 https://github.com/AdoptOpenJDK/homebrew-openjdk
 
 ### Javahome
